@@ -13,7 +13,7 @@ genai.configure(api_key=GEMINI_KEY)
 
 def analyze_folder_with_gemini(folder_path):
     """Klasördeki tüm görsellere bakıp ortak bir ilan içeriği üretir."""
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-1.5-flash-latest')
     files_to_upload = []
     
     # Klasördeki tüm resimleri analiz için hazırla
